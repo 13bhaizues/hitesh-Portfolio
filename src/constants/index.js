@@ -36,7 +36,7 @@ import {
 
 
 // Import Tekisky separately
-import tekisky from "../assets/company/tekisky.png";
+import siwachLogo from "../assets/company/siwach.png";
 
 
 export const navLinks = [
@@ -59,7 +59,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full-Stack Developer",
+    title: "AI-Powered Developer",
     icon: web,
   },
   {
@@ -71,7 +71,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Ui UX Designer",
+    title: "AI Integration Specialist",
     icon: creator,
   },
 ];
@@ -154,16 +154,16 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
-    company_name: "Tekisky",
-    icon: tekisky,
+    title: "Drive Coordinator",
+    company_name: "T&P Cell, GJUST Hisar",
+    icon: siwachLogo,
     iconBg: "#383E56",
-    date: "Jan 2023 - present",
+    date: "2023 - 2024",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led placement coordination activities for 500+ students across multiple engineering disciplines.",
+      "Organized technical workshops and industry interaction sessions with leading companies.",
+      "Developed automated systems for student data management and placement tracking.",
+      "Collaborated with HR teams from top-tier companies to facilitate campus recruitment drives.",
     ],
   },
 ];
@@ -171,35 +171,66 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Huzaif proved me wrong.",
-    name: "MD Mustaqeem",
-    designation: "Ecommerce",
-    company: "QuickMart",
+      "Hitesh's AI-powered solutions transformed our business operations. His technical expertise and innovative approach are exceptional.",
+    name: "Priya Sharma",
+    designation: "Product Manager",
+    company: "TechCorp Solutions",
     image: firstTestimonial,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Huzaif does.",
-    name: "Abdul Raheman",
-    designation: "Ecommerce Business",
-    company: "justbuyz",
+      "Working with Hitesh was a game-changer. His ability to integrate AI into our existing systems exceeded all expectations.",
+    name: "Rajesh Kumar",
+    designation: "CTO",
+    company: "InnovateTech",
     image: secondTestimonial,
   },
   {
     testimonial:
-      "After Huzaif optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "James Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Hitesh delivered a sophisticated e-commerce platform that perfectly balanced functionality with user experience. Highly recommended!",
+    name: "Sarah Johnson",
+    designation: "Founder",
+    company: "Digital Ventures",
     image: thirdTestimonial,
   },
 ];
 
 const projects = [
   {
-    name: "Tekisky Mart",
+    name: "Siwach Enterprises",
     description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
+      "Full-featured e-commerce platform with secure payments, inventory management, and admin dashboard. Built with modern React architecture and integrated with Stripe for seamless transactions.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "green-text-gradient",
+      },
+      {
+        name: "material-ui",
+        color: "blue-text-gradient",
+      },
+ 
+    ],
+    image: project2,
+    source_code_link: "https://github.com/zues13bhai/siwach-interprices",
+    live_demo_link: "https://siwachenterprices.netlify.app",
+  },
+  {
+    name: "AI Resume Builder",
+    description:
+      "ATS-optimized resume builder powered by OpenAI API. Features intelligent content suggestions, multiple templates, and real-time optimization for applicant tracking systems.",
     tags: [
       {
         name: "react",
@@ -207,66 +238,76 @@ const projects = [
       },
       {
         name: "tailwind",
-        color: "white-text-gradient",
-      },
-      {
-        name: "node",
         color: "pink-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
- 
-    ],
-    image: project2,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "GearXpert",
-    description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "emailJs",
+        name: "openai",
         color: "green-text-gradient",
       },
       {
-        name: "Gsap",
-        color: "pink-text-gradient",
+        name: "firebase",
+        color: "green-text-gradient",
       },
     ],
     image: gearXpert,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/zues13bhai/resumebuilderai",
+    live_demo_link: "https://ats-resumebuilder-1.netlify.app",
   },
   {
-    name: "GoGroove-Ecommerce",
+    name: "Smart Chatbot",
     description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
+      "Intelligent conversational AI chatbot with natural language processing capabilities. Built with Python FastAPI backend and React frontend for seamless user interactions.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "fastapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project3,
+    source_code_link: "https://github.com/zues13bhai/siwach-chatbot",
+    live_demo_link: "https://dummychatbot.netlify.app",
+  },
+  {
+    name: "AI Assistant App",
+    description:
+      "Advanced AI assistant application with real-time communication, task automation, and intelligent responses. Features WebSocket integration and MongoDB for data persistence.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "express",
-        color: "white-text-gradient",
+        name: "nodejs",
+        color: "green-text-gradient",
       },
       {
-        name: "node",
-        color: "green-text-gradient",
+        name: "websocket",
+        color: "pink-text-gradient",
       },
       {
         name: "mongodb",
         color: "green-text-gradient",
       },
+      {
+        name: "openai",
+        color: "blue-text-gradient",
+      },
     ],
-    image: project3,
-    source_code_link: "https://github.com/",
+    image: project2,
+    source_code_link: "https://github.com/zues13bhai/ai-assistant",
+    live_demo_link: "https://hitesh-ai.netlify.app",
   },
 ];
 

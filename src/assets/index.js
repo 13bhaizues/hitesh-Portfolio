@@ -3,7 +3,7 @@ import logo from "./logo.png";
 const backend = "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400";
 const creator = "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=400";
 const mobile = "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=400";
-import web from "./web.png";
+const web = "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
